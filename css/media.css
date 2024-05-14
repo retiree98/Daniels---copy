@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+    .nav-custom .nav-logo{
+        margin-left: 10px;
+    }
+    .nav-custom .my-navbar-toggler {
+        background: none !important;
+        margin-top: 5px !important;
+        border: none !important;
+        --bs-navbar-color: #FFFFFF !important;
+    }
+    .navbar-solid .my-navbar-toggler {
+        background: none !important;
+        margin-top: 5px !important;
+        border: 1px !important;
+        --bs-navbar-color: #343434 !important;
+    }
+    .nav-custom .nav-mobile{
+        text-align: center;
+        border: none;
+        border-top: 1px solid rgba(12, 12, 12, 0.04);
+        background: #fff;
+        margin-top: 5px;
+        padding-bottom: 15px;
+    }
+    .nav-custom .my-nav-link{
+        margin: 10px -15px !important;
+        color: #1C1C1C !important;
+    }
+    .nav-custom .links-wrapper > li > a{
+        display: inline-block;
+    }
+    .nav-custom .links-wrapper > li > a.active::after{
+        content: "";
+        width: 100%;
+    }  
+}
+@media screen and (min-width: 768px) {
+    .portfolio .item .port-title{
+        top: 35%;
+    }
+    .portfolio .item .port-icons{
+        bottom: 35%;
+    }
+    .portfolio .item:hover .port-title{
+        top: 38%;
+    }
+    .portfolio .item:hover .port-icons{
+        bottom: 38%;
+    }
+}
+@media screen and (max-width: 991px) {
+    .about .about-img {
+        margin-bottom: 80px !important;
+    }
+}
+@media screen and (min-width: 992px){
+    .portfolio .item .port-title{
+        top: 36%;
+    }
+    .portfolio .item .port-icons{
+        bottom: 36%;
+    }
+    .portfolio .item:hover .port-title{
+        top: 37%;
+    }
+    .portfolio .item:hover .port-icons{
+        bottom: 37%;
+    }
+}
+@media screen and (min-width: 1200px){
+    .portfolio .item .port-title{
+        top: 36%;
+    }
+    .portfolio .item .port-icons{
+        bottom: 36%;
+    }
+    .portfolio .item:hover .port-title{
+        top: 39%;
+    }
+    .portfolio .item:hover .port-icons{
+        bottom: 39%;
+    }
+}
